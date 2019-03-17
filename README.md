@@ -2,10 +2,13 @@
 Aplicación FW o Firewall Habilitar y Deshabilitar
 
 
-
+![](https://3.bp.blogspot.com/-wmgszfQj_m0/WfKowz1RkBI/AAAAAAAAIdY/5nIhl9pwsWIJ5G9N8uqlZV1Zt6PUpIBWACLcBGAs/s1600/Luishi%25C3%25B1o%2BPericena%2BChoque%2BFirewall%2B.png)
 - Un cortafuegos (firewall) es una parte de un sistema o una red que está diseñada para bloquear el acceso no autorizado, permitiendo al mismo tiempo comunicaciones autorizadas.
 Se trata de un dispositivo o conjunto de dispositivos configurados para permitir, limitar, cifrar, descifrar, el tráfico entre los diferentes ámbitos sobre la base de un conjunto de normas y otros criterios.
 Los cortafuegos pueden ser implementados en hardware o software, o en una combinación de ambos. Los cortafuegos se utilizan con frecuencia para evitar que los usuarios de Internet no autorizados tengan acceso a redes privadas conectadas a Internet, especialmente intranets. Todos los mensajes que entren o salgan de la intranet pasan a través del cortafuegos, que examina cada mensaje y bloquea aquellos que no cumplen los criterios de seguridad especificados. También es frecuente conectar el cortafuegos a una tercera red, llamada zona desmilitarizada o DMZ, en la que se ubican los servidores de la organización que deben permanecer accesibles desde la red exterior.
+- https://www.lpericena.tk/2019/03/activar-desactivar-firewall-de-windows.html
+
+![](https://2.bp.blogspot.com/-v989lRkRcF4/XI3R1g4ThwI/AAAAAAAAONI/FEV2KuqOwi07zkSoUdci_h197ssPG7QRACLcBGAs/s1600/Screenshot_5.png)
 
 ### Sigueme en las redes Sociales:
 - 🌎Blogger          https://lpericena.blogspot.com/
