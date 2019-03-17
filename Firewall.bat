@@ -1,21 +1,34 @@
-
 @rem bin\windows\bat
 @rem Autor Luishiño Pericena Choque
-@rem Información:
+@rem Informacion:
+@rem Sigueme en las redes Sociales:
 @rem Blogger          https://lpericena.blogspot.com/
 @rem Github            https://github.com/Pericena
+@rem youtube.com  https://www.youtube.com/channel/UCELx1m-NeAdBn7mCuQ86kcw
 @rem pinterest        https://es.pinterest.com/lushiopericena/
 @rem twitter             https://twitter.com/LPericena
-@rem linkedin          https://www.linkedin.com/in/luishi%C3%B1o-pericena-choque-126534116/
+@rem linkedin         https://www.linkedin.com/in/lpericena/
 @rem facebook       https://www.facebook.com/profile.php?id=100009309755063
+@rem pagina facebook  https://www.facebook.com/lpericena
 @rem sitio web        https://pericena.wordpress.com/
-@rem Aplicacion     https://apps.facebook.com/167466933725219
-@rem contacto        https://www.facebook.com/Servicio-T%C3%A9cnico-1506435219407506
-
+@rem vimeo         https://vimeo.com/lpericena
+@rem instagram      https://www.instagram.com/lpericena/
+@rem remote      https://remote.com/luishinopericena-choque
+@rem google+   https://plus.google.com/u/0/114054031405340478901
+@rem kiwi       https://kiwi.qa/LuishinoC
+@rem App    https://apps.facebook.com/167466933725219
+@rem Grupo    https://www.facebook.com/groups/122223121705126/?source_id=1506435219407506
+@rem socialtools https://www.socialtools.me/index?action=demoApps&preview=1&app_id=406101
+@rem teachlr    https://teachlr.com/lpericena
+@rem wikipedia  https://es.wikipedia.org/wiki/Usuario:Luishi%C3%B1o_Pericena_Choque
+@rem ask          https://ask.fm/Lpericena
+@rem stackoverflow  https://stackoverflow.com/users/6506592/luishi%C3%B1o-pericena-choque
+@rem wix https://lpericena.wixsite.com/curriculumvitae
 
 @echo off
 title Firewall
-color C 
+MODE con: cols=100 lines=50
+color 0C 
 set Nombre=Autor: Luishino Pericena Choque       
 :menu
 echo                                rr                          
@@ -54,21 +67,17 @@ echo        ,:MGr ,,:  9@BBsr  : ,ri  :, 5@B@X  r :,9G9 i
 echo        : GGB,:  r  ,9@@BMXS, ;s,iG@B@BG, ,i i XGMr,,       
 echo        ,::s2 r,  ,:   i9B@@@B@B@B@B@s, ,:,  r i5r,:        
 echo         ,:,,:i      :,    ,:rrrii,   ,,      i,,,,         
-echo              https://lpericena.blogspot.com/     
-echo %Nombre%
+echo                   https://lpericena.blogspot.com/     
+echo                   %Nombre%
 echo Hola %USERNAME%              
-echo            1. Habilitar Firewall
-echo            2. Deshabilitar Firewall
-echo            3. Habilitar Firewall de la red de Dominio
-echo            4. Deshabilitar Firewall de la red de Dominio
-echo            5. Habilitar Firewall de la red Privada
-echo            6. Deshabilitar Firewall de la red Privada
-echo            7. Habilitar Firewall de la red Publica
-echo            8. Deshabilitar Firewall de la red Publica
-echo            9. Habilitar Firewall para todas las redes
-echo            10.Deshabilitar Firewall para todas las redes
-echo            11. salir
+echo  1. Habilitar Firewall                            6. Deshabilitar Firewall de la red Privada
+echo  2. Deshabilitar Firewall                         7. Habilitar Firewall de la red Publica
+echo  3. Habilitar Firewall de la red de Dominio       8. Deshabilitar Firewall de la red Publica
+echo  4. Deshabilitar Firewall de la red de Dominio    9. Habilitar Firewall para todas las redes
+echo  5. Habilitar Firewall de la red Privada          10.Deshabilitar Firewall para todas las redes
+echo                                                   11.Salir         
 echo =========================================================================
+echo. [%numero%] Firewall :%firewall%
 set /p numero=Teclea una opcion (Ctrl + c para salir del menu):
 if %numero%==1 goto :1
 if %numero%==2 goto :2
@@ -81,57 +90,68 @@ if %numero%==8 goto :8
 if %numero%==9 goto :9
 if %numero%==10 goto :10
 if %numero%==11 goto :fin
-if %numero% GTR 5 echo Error
+if %numero% GTR 11 echo Error
+goto menu
 
-goto :menu
 :1
 netsh advfirewall set currentprofile state on
+set firewall=Habilitar Firewall
 cls
-
 goto :menu
+
 :2
 netsh advfirewall set  currentprofile state off
+set firewall=Deshabilitar Firewall
 cls
-
 goto :menu
+
 :3
 netsh advfirewall set domainprofile state on
+set firewall=Habilitar Firewall de la red de Dominio
 cls
-
 goto :menu
+
 :4
 netsh advfirewall set domainprofile state off
+set firewall=Deshabilitar Firewall de la red de Dominio
 cls
-
 goto :menu
+
 :5
 netsh advfirewall set privateprofile state on
+set firewall=Habilitar Firewall de la red Privada
 cls
-
 goto :menu
+
 :6
 netsh advfirewall set privateprofile state off
+set firewall=Deshabilitar Firewall de la red Privada
 cls
-
 goto :menu
+
 :7
 netsh advfirewall set publicprofile state on
+set firewall=Habilitar Firewall de la red Publica
 cls
-
 goto :menu
+
 :8
 netsh advfirewall set publicprofile state off
+set firewall=Deshabilitar Firewall de la red Publica
 cls
-
 goto :menu
+
 :9
 netsh advfirewall set  allprofiles state on
+set firewall=Habilitar Firewall para todas las redes
 cls
-
 goto :menu
+
 :10
 netsh advfirewall set  allprofiles state off
+set firewall=Deshabilitar Firewall para todas las redes
 cls
+goto :menu
 
 :fin
 exit
