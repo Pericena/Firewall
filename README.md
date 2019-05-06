@@ -9,6 +9,17 @@ Los cortafuegos pueden ser implementados en hardware o software, o en una combin
 - https://www.lpericena.tk/2019/03/activar-desactivar-firewall-de-windows.html
 
 ![](https://2.bp.blogspot.com/-v989lRkRcF4/XI3R1g4ThwI/AAAAAAAAONI/FEV2KuqOwi07zkSoUdci_h197ssPG7QRACLcBGAs/s1600/Screenshot_5.png)
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="MJPRV838AYA2J" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_BO/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<!-- Start of adf.ly banner code --><a href="https://join-adf.ly/21179079"><img border="0" src="https://cdn.ay.gy/images/banners/adfly.350x19.1.png" width="320" height="23" title="AdF.ly - acorta links y gana dinero!" /></a>
+<!-- End of adf.ly banner code -->
+
+### Donación paypal
+- https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MJPRV838AYA2J&source=url
 
 ### Sigueme en las redes Sociales:
 - 🌎Blogger          https://lpericena.blogspot.com/
